@@ -37,10 +37,6 @@ function Navbar() {
             ))}
           </ul>
 
-          <a href="#download" className="btn-primary nav-cta" id="nav-download-btn">
-            <span>⬇</span> Download APK
-          </a>
-
           <button
             className="nav-mobile-toggle"
             aria-label="Toggle menu"
@@ -70,11 +66,7 @@ function Navbar() {
               >
                 {l.label}
               </a>
-            ))}
-            <a href="#download" className="btn-primary" style={{ width: 'fit-content' }}>
-              ⬇ Download APK
-            </a>
-          </div>
+            ))}          </div>
         )}
       </div>
     </nav>
