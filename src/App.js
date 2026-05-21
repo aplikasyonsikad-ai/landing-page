@@ -99,7 +99,7 @@ function Hero() {
 
             <p className="hero-subtitle">
               The first shared ride booking app built for Filipino communities using
-              the <strong>Bokyo</strong> — the iconic multi-passenger vehicle of the Philippines.
+              the <strong>RE</strong> — the iconic multi-passenger vehicle of the Philippines.
               Book rides, track your driver in real time, and pay seamlessly — all in one app.
             </p>
 
@@ -255,12 +255,12 @@ const STEPS = [
   {
     num: '2',
     title: 'Book Your Shared Ride',
-    desc: 'Open the map, choose your destination, and submit your ride request. Available Bokyo drivers are notified instantly.',
+    desc: 'Open the map, choose your destination, and submit your ride request. Available RE drivers are notified instantly.',
   },
   {
     num: '3',
     title: 'Track & Pay',
-    desc: 'Watch your Bokyo driver arrive in real time on the map, complete your shared ride, and pay from your wallet — seamlessly.',
+    desc: 'Watch your RE driver arrive in real time on the map, complete your shared ride, and pay from your wallet — seamlessly.',
   },
 ];
 
@@ -298,7 +298,7 @@ const ROLES = [
     emoji: '🧑‍💼',
     cls: 'role-card-passenger',
     title: 'Passenger',
-    desc: 'Book shared Bokyo rides anytime, track your driver live, manage your wallet, and save your favorite routes for faster future bookings.',
+    desc: 'Book shared RE rides anytime, track your driver live, manage your wallet, and save your favorite routes for faster future bookings.',
     features: [
       'Interactive map booking with pin drop',
       'Real-time driver location tracking',
@@ -386,7 +386,7 @@ function Screenshots() {
             See SIKAD <span className="gradient-text">In Action</span>
           </h2>
           <p className="section-subtitle">
-            A premium mobile experience designed for shared Bokyo rides — clarity, speed, and elegance in one app.
+            A premium mobile experience designed for shared RE rides — clarity, speed, and elegance in one app.
           </p>
         </div>
 
@@ -495,7 +495,7 @@ function Footer() {
           </div>
 
           <p className="footer-tagline">
-            Smart & Innovative Shared Bokyo App for Digital rides — connecting communities, one trip at a time.
+            Smart & Innovative Shared RE App for Digital rides — connecting communities, one trip at a time.
           </p>
 
           <ul className="footer-links">
