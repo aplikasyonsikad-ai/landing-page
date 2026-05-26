@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
+import ContactForm from './ContactForm';
 
 
 // ── Navbar ─────────────────────────────────────────────────────────────────
@@ -18,6 +19,7 @@ function Navbar() {
     { label: 'How It Works', href: '#how-it-works' },
     { label: 'Roles', href: '#roles' },
     { label: 'Screenshots', href: '#screenshots' },
+    { label: 'Contact', href: '#contact' },
   ];
 
   return (
@@ -505,6 +507,7 @@ function Footer() {
             <li><a href="#roles">Roles</a></li>
             <li><a href="#screenshots">Screenshots</a></li>
             <li><a href="#download">Download</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
 
           <div className="footer-divider" />
@@ -531,6 +534,7 @@ export default function App() {
         <Roles />
         <Screenshots />
         <Download />
+        <ContactForm />
       </main>
       <Footer />
     </>
