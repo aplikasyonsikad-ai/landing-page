@@ -513,7 +513,7 @@ function Footer() {
           <div className="footer-divider" />
 
           <p className="footer-copy">
-            © {year} SIKAD. All rights reserved. · Built with Flutter & Firebase.
+            © {year} SIKAD. All rights reserved.
           </p>
         </div>
       </div>
