@@ -445,7 +445,7 @@ function Download() {
             </p>
 
             <a
-              href="/sikad Version-1.apk"
+              href="/SIKAD Version 1.apk"
               className="download-btn"
               id="apk-download-btn"
               download
